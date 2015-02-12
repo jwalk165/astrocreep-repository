@@ -1,0 +1,28 @@
+/*******************************************************
+* Name: Justin Walker
+* Assignment: A01
+*******************************************************/
+
+import java.util.Scanner;
+
+public class A01
+{
+	public static void main(String[] args)
+	{
+		// part1
+		System.out.println("o o o o o");
+		System.out.println("o . . . o");
+		System.out.println("o .   . o");
+    System.out.println("o . . . o");
+    System.out.println("o o o o o\n");
+
+		// part2
+		Scanner scan = new Scanner(System.in);
+      System.out.print("Favorite athlete: ");
+      String athlete = scan.nextLine();
+      System.out.print("Name the country s/he is from: ");
+      String country = scan.nextLine();
+      System.out.printf("My favorite athlete is %s", athlete);
+      System.out.printf(" from %s", country);
+	}
+}
